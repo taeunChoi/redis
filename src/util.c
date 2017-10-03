@@ -405,7 +405,11 @@ int string2ll(const char *s, size_t slen, long long *value) {
 
 /* Convert a string into a long. Returns 1 if the string could be parsed into a
  * (non-overflowing) long, 0 otherwise. The value will be set to the parsed
- * value when appropriate. */
+ * value when appropriate. 
+ * 스페이스가 안쳐져요
+ *  여기는
+  /
+
 int string2l(const char *s, size_t slen, long *lval) {
     long long llval;
 
